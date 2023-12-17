@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   },
   view8: {
     position: 'absolute',
-    top: '18%',
+    bottom: '10%',
   },
   view9: {
     flexDirection: 'row',
@@ -59,12 +59,17 @@ const styles = StyleSheet.create({
   },
   view11: {
     position: 'absolute',
-    top: '57%',
+    top: '20%',
     width: '95%',
   },
   view13: {
     position: 'absolute',
-    top: '70%',
+    top: '35%',
+    width: '95%',
+  },
+  view14: {
+    position: 'absolute',
+    top: '50%',
     width: '95%',
   },
   view12: {
@@ -95,15 +100,15 @@ const styles = StyleSheet.create({
     color: '#000',
   },
   btn1:{
-    borderRadius: 10,
+    borderRadius: 5,
     backgroundColor: '#776C04',
     paddingVertical: 10,
-    paddingHorizontal: '25%',
-    marginTop: '8%',
+    paddingHorizontal: '20%',
+    // paddingHorizontal: 45,
   },
   btntxt: {
     fontWeight: '800',
-    fontSize: 16,
+    fontSize: 22,
     color: '#fff',
     textAlign: 'center',
   },
@@ -114,15 +119,17 @@ const styles = StyleSheet.create({
     paddingHorizontal: '12%',
   },
   input2:{
-    color: '#E4E3D4',
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
     paddingHorizontal: '12%',
+    padding: 10,
   },
   input3:{
-    color: '#E4E3D4',
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
+    padding: 10,
   },
 horizontalSpace: {
     paddingHorizontal: '5%',

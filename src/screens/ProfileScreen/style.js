@@ -1,13 +1,12 @@
 /* eslint-disable prettier/prettier */
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   bg1: {
-    opacity:0.51,
+    opacity: 0.51,
   },
-  opa1:{
-    opacity: 0.30,
-
+  opa1: {
+    opacity: 0.3,
   },
   view1: {
     // backgroundColor: '#ffd448',
@@ -18,7 +17,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   view2: {
-    position:'absolute',
+    position: 'absolute',
     top: 0,
   },
   view3: {
@@ -29,49 +28,65 @@ const styles = StyleSheet.create({
   view4: {
     position: 'absolute',
     left: 0,
+    top: '45%',
+    marginLeft: '5%',
   },
   view5: {
-    bottom: 0,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    top: '55%',
     position: 'absolute',
-    right: 0,
+    width: '90%',
   },
   view6: {
     position: 'absolute',
-    bottom: '10%',
+    top: '15%',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    borderWidth: 2,
+    borderColor: '#CBB708',
+    borderRadius: 20,
+    width: '90%',
+    paddingVertical: '5%',
+    // height: '25%',
+    // padding: '10%',
   },
-  view7:{
+  view7: {
     position: 'absolute',
     top: '5%',
   },
   view8: {
     position: 'absolute',
-    top: '18%',
+    bottom: '15%',
   },
   view9: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    width: '100%',
+    position: 'absolute',
+    bottom: '5%',
   },
   view10: {
-    position:'absolute',
+    position: 'absolute',
     left: '1%',
     top: '5%',
   },
   view11: {
     position: 'absolute',
-    top: '57%',
+    top: '20%',
     width: '95%',
   },
   view13: {
     position: 'absolute',
-    top: '70%',
+    top: '35%',
+    width: '95%',
+  },
+  view14: {
+    position: 'absolute',
+    top: '50%',
     width: '95%',
   },
   view12: {
     position: 'absolute',
     bottom: '5%',
     flexDirection: 'row',
-
   },
   text1: {
     fontSize: 32,
@@ -94,39 +109,66 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     color: '#000',
   },
-  btn1:{
-    borderRadius: 10,
+  text5: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#000',
+    textAlign: 'left',
+  },
+  btn1: {
+    borderRadius: 5,
     backgroundColor: '#776C04',
     paddingVertical: 10,
-    paddingHorizontal: '25%',
-    marginTop: '8%',
+    paddingHorizontal: '8%',
+  },
+  btn2: {
+    borderRadius: 5,
+    backgroundColor: '#776C04',
+    paddingVertical: 10,
+    paddingHorizontal: '10%',
   },
   btntxt: {
     fontWeight: '800',
-    fontSize: 16,
+    fontSize: 22,
     color: '#fff',
     textAlign: 'center',
   },
-  input1:{
+  input1: {
     color: '#E4E3D4',
     borderWidth: 1,
     borderRadius: 5,
     paddingHorizontal: '12%',
   },
-  input2:{
-    color: '#E4E3D4',
+  input2: {
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
     paddingHorizontal: '12%',
+    padding: 10,
   },
-  input3:{
-    color: '#E4E3D4',
+  input3: {
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
+    padding: 10,
   },
-horizontalSpace: {
+  horizontalSpace: {
     paddingHorizontal: '5%',
-},
+  },
+  spacer:{
+    marginTop: '5%',
+  },
+  line: {
+    borderWidth: 3,
+    width: '100%',
+    borderColor: '#D9D9D9',
+    marginTop: '1%',
+  },
+  pen: {
+    width: '90%',
+    alignItems: 'flex-end',
+    padding: 2,
+  },
 });
 
-export { styles };
+export {styles};

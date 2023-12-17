@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   },
   view9: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     width: '100%',
   },
   view10: {
@@ -61,6 +61,9 @@ const styles = StyleSheet.create({
   view11: {
     marginTop: '5%',
     width: '95%',
+  },
+  view12: {
+    width: '45%',
   },
   text1: {
     fontSize: 32,
@@ -92,25 +95,24 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   input1:{
-    color: '#E4E3D4',
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
-    paddingHorizontal: '12%',
+    paddingLeft:10,
+    // backgroundColor: '#000',
   },
   input2:{
-    color: '#E4E3D4',
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
-    paddingHorizontal: '12%',
+    paddingLeft:10,
   },
   input3:{
-    color: '#E4E3D4',
+    color: '#000',
     borderWidth: 1,
     borderRadius: 5,
+    padding: 10,
   },
-horizontalSpace: {
-    paddingHorizontal: '5%',
-},
 });
 
 export { styles };

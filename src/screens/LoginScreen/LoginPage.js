@@ -6,14 +6,14 @@ import {styles} from './styles';
 
 const Login = ({navigation}) => {
   const handleSignupPress = () => {
-    // Navigate to the Login screen
     navigation.navigate('Signup');
   };
   const handleBackButtonClick = () => {
     navigation.goBack();
   };
   const handleHome = () => {
-    // Navigate to the Login screen
+    navigation.navigate('MainNavigator');
+
   };
   return (
     <View style={styles.view1}>

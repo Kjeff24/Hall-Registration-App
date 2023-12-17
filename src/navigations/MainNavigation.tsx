@@ -1,14 +1,16 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Home from '../screens/HomeScreen/HomePage';
-import Support from '../screens/SupportScreeen/SupportPage';
 import Profile from '../screens/ProfileScreen/ProfilePage';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import Support from './MiniNavigations/SupportNavigation';
+import Registration from './MiniNavigations/RegistrationNavigation';
+import Home from '../screens/HomeScreen/HomePage';
 
 const Tab = createBottomTabNavigator();
+
 interface TabIconProps {
   name: string;
   color: string;
@@ -26,7 +28,7 @@ const FontIcon: React.FC<TabIconProps> = ({name, color, size}) => (
 
 const MainNavigator: React.FC = () => (
   <Tab.Navigator
-    initialRouteName="Home"
+    initialRouteName="AuthNavigator"
     screenOptions={{
       headerStyle: { backgroundColor: '#CBB708'},
       tabBarActiveTintColor: '#CBB708',
@@ -65,6 +67,20 @@ const MainNavigator: React.FC = () => (
       }}
       component={Profile}
     />
+    <Tab.Screen
+      name="Registration"
+      options={{
+        headerShown: false,
+        // eslint-disable-next-line react/no-unstable-nested-components
+        tabBarIcon: ({color, size}) => (
+          <MaterialIcons name={'app-registration'} color={color} size={size} />
+        ),
+      }}
+      component={Registration}
+    />
+    {/* <Tab.Screen
+    options={{ headerShown: false, tabBarButton: () => null }}
+    name="AuthNavigator" component={AuthNavigator} /> */}
   </Tab.Navigator>
 );
 
