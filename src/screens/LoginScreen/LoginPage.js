@@ -26,12 +26,6 @@ const Login = ({navigation}) => {
         <Text style={styles.text1}>SIGN IN</Text>
         <Text style={styles.text2}>Welcome back!</Text>
       </View>
-      {/* <View style={styles.view2}>
-      <Image
-        source={require('../../assets/hall_bg.png')}
-        style={styles.bg1}
-      />
-    </View> */}
       <View style={styles.view3}>
         <Image
           source={require('../../assets/ellipse1.png')}

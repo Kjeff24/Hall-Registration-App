@@ -30,9 +30,11 @@ const MainNavigator: React.FC = () => (
   <Tab.Navigator
     initialRouteName="AuthNavigator"
     screenOptions={{
-      headerStyle: { backgroundColor: '#CBB708'},
-      tabBarActiveTintColor: '#CBB708',
-      // tabBarInactiveBackgroundColor: '',
+      tabBarStyle:{backgroundColor: '#BCAE2B'},
+      tabBarActiveTintColor: '#BCAE2B',
+      tabBarActiveBackgroundColor: '#fff',
+      tabBarInactiveTintColor: '#fff',
+      tabBarShowLabel: false,
     }}>
     <Tab.Screen
       name="Home"
@@ -78,9 +80,6 @@ const MainNavigator: React.FC = () => (
       }}
       component={Registration}
     />
-    {/* <Tab.Screen
-    options={{ headerShown: false, tabBarButton: () => null }}
-    name="AuthNavigator" component={AuthNavigator} /> */}
   </Tab.Navigator>
 );
 

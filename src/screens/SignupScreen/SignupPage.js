@@ -34,12 +34,6 @@ const Signup = ({navigation}) => {
           <Text style={styles.text1}>CREATE ACCOUNT</Text>
           <Text style={styles.text2}>Fill the form to create account</Text>
         </View>
-        {/* <View style={styles.view2}>
-        <Image
-          source={require('../../assets/hall_bg.png')}
-          style={styles.bg1}
-        />
-      </View> */}
         <View style={styles.view3}>
           <Image
             source={require('../../assets/ellipse1.png')}

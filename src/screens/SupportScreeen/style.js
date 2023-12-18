@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 
   },
   view1: {
-    // backgroundColor: '#ffd448',
+    // backgroundColor: '#BCAE2B',
     flex: 1,
     maxWidth: 480,
     flexDirection: 'column',

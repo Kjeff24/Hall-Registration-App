@@ -27,30 +27,6 @@ const SupportDetail = ({navigation}) => {
         <Text style={styles.text1}>SUPPORT</Text>
         <Text style={styles.text2}>Fill form to lodge complaint</Text>
       </View>
-      {/* <View style={styles.view2}>
-    <Image
-      source={require('../../assets/hall_bg.png')}
-      style={styles.bg1}
-    />
-  </View> */}
-      {/* <View style={styles.view3}>
-      <Image
-        source={require('../../assets/ellipse1.png')}
-        style={styles.opa1}
-      />
-    </View>
-    <View style={styles.view4}>
-      <Image
-        source={require('../../assets/ellipse2.png')}
-        style={styles.opa1}
-      />
-    </View>
-    <View style={styles.view5}>
-      <Image
-        source={require('../../assets/ellipse3.png')}
-        style={styles.opa1}
-      />
-    </View> */}
       <View style={styles.view11}>
         <Text style={styles.text3}>Name</Text>
         <TextInput style={styles.input3} placeholder="Enter Name" />

@@ -9,38 +9,9 @@ const Home = ({navigation}) => {
   };
   return (
     <View style={styles.view1}>
-      {/* <View style={styles.view10}>
-        <Pressable onPress={handleBackButtonClick}>
-          <Ionicons name="chevron-back-outline" size={39} color={'#000'} />
-        </Pressable>
-      </View> */}
       <View style={styles.view7}>
         <Text style={styles.text1}>Welcome, Gabriel</Text>
       </View>
-      {/* <View style={styles.view2}>
-  <Image
-    source={require('../../assets/hall_bg.png')}
-    style={styles.bg1}
-  />
-</View> */}
-      {/* <View style={styles.view3}>
-    <Image
-      source={require('../../assets/ellipse1.png')}
-      style={styles.opa1}
-    />
-  </View>
-  <View style={styles.view4}>
-    <Image
-      source={require('../../assets/ellipse2.png')}
-      style={styles.opa1}
-    />
-  </View>
-  <View style={styles.view5}>
-    <Image
-      source={require('../../assets/ellipse3.png')}
-      style={styles.opa1}
-    />
-  </View> */}
       <View style={styles.view6}>
         <View>
           <Image source={require('../../assets/person_1.png')} />

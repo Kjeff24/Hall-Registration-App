@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   view1: {
-    backgroundColor: '#ffd448',
+    backgroundColor: '#BCAE2B',
     flex: 1,
     maxWidth: 480,
     flexDirection: 'column',
@@ -18,11 +18,11 @@ const styles = StyleSheet.create({
     opacity:0.51,
   },
   opa1:{
-    opacity: 0.30,
+    opacity: 0.60,
 
   },
   view3: {
-    top: 0,
+    top: '-2%',
     position: 'absolute',
     right: 0,
   },
