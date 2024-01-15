@@ -4,7 +4,7 @@ import {Alert, Pressable, Text, TextInput, View} from 'react-native';
 import {styles} from './style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-const SupportDetail = ({navigation}) => {
+const SupportOther = ({navigation}) => {
   const handleBackButtonClick = () => {
     navigation.goBack();
   };
@@ -39,13 +39,13 @@ const SupportDetail = ({navigation}) => {
         />
       </View> */}
       <View style={styles.view14}>
-        <Text style={styles.text3}>Additional Information</Text>
+        <Text style={styles.text3}>Type Complaint</Text>
         <TextInput
           editable
           multiline
           numberOfLines={10}
           style={styles.input3}
-          placeholder="Include details, specifications, or any other relevant information"
+          placeholder="Type Complaint Here"
         />
       </View>
       <View style={styles.view8}>
@@ -57,4 +57,4 @@ const SupportDetail = ({navigation}) => {
   );
 };
 
-export default SupportDetail;
+export default SupportOther;

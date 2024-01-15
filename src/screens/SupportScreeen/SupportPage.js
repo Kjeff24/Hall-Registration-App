@@ -11,6 +11,9 @@ const SupportMain = ({navigation}) => {
   const handleSupportDetail = () => {
     navigation.navigate('SupportDetail');
   };
+  const handleSupportOther = () => {
+    navigation.navigate('SupportOther');
+  };
   return (
     <View style={styles.view1}>
       <View style={styles.view10}>
@@ -39,6 +42,9 @@ const SupportMain = ({navigation}) => {
         </Pressable>
         <Pressable style={styles.btn1} onPress={handleSupportDetail}>
           <Text style={styles.btntxt}>Furniture</Text>
+        </Pressable>
+        <Pressable style={styles.btn1} onPress={handleSupportOther}>
+          <Text style={styles.btntxt}>Other</Text>
         </Pressable>
       </View>
       <View style={styles.view12}>
